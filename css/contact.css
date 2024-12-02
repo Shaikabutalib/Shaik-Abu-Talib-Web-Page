@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+body {
+    background: url('../img/contactbg.jpeg') no-repeat center center/cover;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.formcontainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form input,
+form textarea {
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    padding: 2%;
+    width: 100%;
+}
+
+form div {
+    margin-top: 1rem;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.formbtndiv {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    /* transition: background-color 1s, color 1s; */
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: black;
+    /* color: green; */
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
